@@ -93,3 +93,18 @@ div.jugador1, div.jugador2{
     text-decoration: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width:576px){
+    #tablero{
+        width:280px;
+    }
+
+    section div.card{
+        width: 80px;
+        height: 80px;
+    }
+
+    .modal-content {
+        width:70%;
+    }
+}
